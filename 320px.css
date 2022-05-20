@@ -3,6 +3,8 @@ html {
     height: 597px;
 }
 body {
+    width: 320px;
+    height: 597px;
     font-family: 'TT Lakes';
 }
 .menu__call,
