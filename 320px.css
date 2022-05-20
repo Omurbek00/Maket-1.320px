@@ -1,0 +1,76 @@
+html {
+    max-width: 320px;
+    max-height: 597px;
+}
+body {
+    font-family: 'TT Lakes';
+}
+.menu__call,
+.menu__chat,
+.menu__divider2,
+.menu__text,
+.menu__text2,
+.text__hide,
+.text__hide2,
+.menu__profile,
+.reviews {
+   display:none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+}
+.button {
+    border: none;
+    background: white;
+}
+.main__icon {
+    content: "";
+    width: 4px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #41f6d7;
+    position: absolute;
+    left:1px;
+    top:120px;
+}
+.main__text {
+    margin: 24px 0 0 12px; 
+}
+.swiper {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    list-style: none;
+    overflow-x: scroll;
+}
+a {
+    text-decoration: none;
+    color:  #7E7E82;
+    margin: 0 28px 0 0;
+}
+a:hover {
+    border: 2px solid  #B8FFEC;
+    padding: 8.63px 21.7px 7.37px 22.64px;
+    border-radius: 6px;
+}
+p {
+    font-size: 14px;
+    width: 288px;
+    height: 90px;
+    margin: 32px 16px 16px 16px;
+}
+.read {
+    border:none;
+    background: white;
+    margin: 0 0 20px 24px;
+}
+.read__img {
+    margin: 0 16px 0 0;
+}
+.shedule__img {
+    width: 320px;
+    height: 230px;
+}
