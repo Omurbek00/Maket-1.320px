@@ -1,9 +1,9 @@
 html {
-    width: 320px;
+    min-width: 320px;
     height: 597px;
 }
 body {
-    width: 320px;
+    min-width: 320px;
     height: 597px;
     font-family: 'TT Lakes';
 }
